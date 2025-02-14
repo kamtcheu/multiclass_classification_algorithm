@@ -52,19 +52,19 @@ This project focuses on image classification using various Convolutional Neural 
 
 ## Results
 
-- Confusion matrice of ViT_B16
+- ### Confusion matrice of ViT_B16
 ![cnn_confusion_matrix_vitb16](https://github.com/user-attachments/assets/9b64e15a-ce08-4d29-a5fd-186afa1b5bd5)
 
-- Confusion matrice of ResNet18
+- ### Confusion matrice of ResNet18
 ![cnn_confusion_matrix_efficientnet_b0_cuda](https://github.com/user-attachments/assets/805dead0-afa3-42c9-9e54-cd45c75e1961)
 
-- Confusion matrice of EfficientNetB0
+- ### Confusion matrice of EfficientNetB0
 ![cnn_confusion_matrix_restnet18_cuda](https://github.com/user-attachments/assets/756472c8-a511-4fae-b451-f62b8c3e278a)
 
-- Inference Time for each algorihtm
+- ### Inference Time for each algorihtm
 ![output](https://github.com/user-attachments/assets/2cef2775-21b8-4ec5-8b94-a3820a6e7ac6)
 
-- Precision of the Algorihtms
+- ### Precision of the Algorihtms
 ![output2](https://github.com/user-attachments/assets/e2c1fe90-ca90-4554-8ef7-11a66966a1af)
 
 ## License
