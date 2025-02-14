@@ -1,4 +1,4 @@
-# CIFAR-10 Image Classification
+# Muticlass Image Classification
 
 This project focuses on image classification using various Convolutional Neural Networks (CNNs) and classical machine learning models on the CIFAR-10 dataset.
 
