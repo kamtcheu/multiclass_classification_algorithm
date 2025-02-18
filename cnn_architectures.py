@@ -30,8 +30,8 @@ loader_params = {
     'num_workers': 8  # increase this value to use multiprocess data loading
 }
 # Load CIFAR-10 dataset
-trainset = datasets.CIFAR10(root="./", train=True, download=True, transform=transform)
-testset = datasets.CIFAR10(root="./", train=False, download=True, transform=transform)
+trainset = datasets.CIFAR10(root="./data", train=True, download=True, transform=transform)
+testset = datasets.CIFAR10(root="./data", train=False, download=True, transform=transform)
 train_loader = DataLoader(trainset, batch_size=64, shuffle=True)
 test_loader = DataLoader(testset, batch_size=64, shuffle=False)
 
@@ -54,8 +54,8 @@ def get_model(model_name):
             transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))
         ])
         # Load CIFAR-10 dataset
-        trainset = datasets.CIFAR10(root="./", train=True, download=True, transform=transform)
-        testset = datasets.CIFAR10(root="./", train=False, download=True, transform=transform)
+        trainset = datasets.CIFAR10(root="./data", train=True, download=True, transform=transform)
+        testset = datasets.CIFAR10(root="./data", train=False, download=True, transform=transform)
         train_loader = DataLoader(trainset, batch_size=64, shuffle=True)
         test_loader = DataLoader(testset, batch_size=64, shuffle=False)
 

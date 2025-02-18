@@ -131,4 +131,3 @@ weighted avg       0.46      0.46      0.46     10000
    macro avg       0.40      0.40      0.40     10000
 weighted avg       0.40      0.40      0.40     10000
 
-2025-02-18 13:18:59,760 - Using device: cuda

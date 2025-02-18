@@ -44,7 +44,7 @@ transform_vit = transforms.Compose([
 ])
 
 # Load an image (Replace 'test_image.png' with your own image)
-image_path = "cat.jpg"
+image_path = "./demo_images/horse.jpg"
 image = Image.open(image_path)
 
 # Preprocess for ML models (SVM, RF) - Flattened 32x32x3 input
