@@ -50,17 +50,31 @@ This project focuses on image classification using various Convolutional Neural 
     python demo.py
     ```
 
-## Results
+## Results (Pretrained only and Fine tuned)
 
-- ### Confusion matrice of ViT_B16
+- ### Confusion matrices of ViT_B16
+#
+![cnn_confusion_matrix_no_fine_tune_vitb16](https://github.com/user-attachments/assets/9fc7fe50-cece-4202-86f5-aec4b62c359c)
 ![cnn_confusion_matrix_vitb16](https://github.com/user-attachments/assets/9b64e15a-ce08-4d29-a5fd-186afa1b5bd5)
-
-- ### Confusion matrice of ResNet18
+#
+#
+#
+- ### Confusion matrices of ResNet18
+#
+![cnn_confusion_matrix_no_fine_tuning_restnet18_cuda](https://github.com/user-attachments/assets/7f5913eb-05f3-4826-af16-d5e5e1cdd3a7)
 ![cnn_confusion_matrix_efficientnet_b0_cuda](https://github.com/user-attachments/assets/805dead0-afa3-42c9-9e54-cd45c75e1961)
-
-- ### Confusion matrice of EfficientNetB0
+#
+#
+#
+- ### Confusion matrices of EfficientNetB0
+#
+![cnn_confusion_matrix_no_fine_tuning_efficientnet_b0_cuda](https://github.com/user-attachments/assets/aeadc654-61d5-41f1-9f53-e1f0cd96a2b1)
 ![cnn_confusion_matrix_restnet18_cuda](https://github.com/user-attachments/assets/756472c8-a511-4fae-b451-f62b8c3e278a)
-
+#
+#
+#
+## Summary
+#
 - ### Inference Time for each algorihtm
 ![output](https://github.com/user-attachments/assets/2cef2775-21b8-4ec5-8b94-a3820a6e7ac6)
 
